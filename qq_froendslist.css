@@ -1,0 +1,254 @@
+/***总容器**/
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+/****头部**/
+.wrapper header{
+    width: 100%;
+    height: 12vw;
+    background-color: #eeeeee;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper header .location-left{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding:2.5vw;
+}
+.wrapper header .location-left img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+.wrapper header .location-left h2{
+    font-size: 5vw;
+    font-weight: 350;
+
+    box-sizing: border-box;
+    padding:2.5vw;
+
+}
+.wrapper header img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+.wrapper header .location-right{
+    box-sizing: border-box;
+    padding:2.5vw;
+
+    font-size: 8vw;
+    font-weight: 350;
+}
+/*******search*******/
+.wrapper .search{
+    width: 100%;
+    height: 15vw;
+    box-sizing: border-box;
+    padding: 18vw 0 6vw 0;
+    font-size: 5vw;
+    background-color: #eeeeee;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .search-box{
+    width: 95%;
+    height: 0.5vw;
+
+    box-sizing: border-box;
+    padding: 4vw 0 4vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+
+    font-size: 5vw;
+    color: #aaaaaa;
+}
+.wrapper .nothing{
+    width: 100%;
+    height: 3vw;
+    background-color: #eeeeee;
+}
+/***推荐添加**/
+.wrapper .recommend{
+    width: 100%;
+    height: 4vw;
+    background-color: white;
+}
+.wrapper .recommend-add{
+    width: 100%;
+}
+.wrapper .recommend-add li{
+    width: 100%;
+    height: 12vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .recommend-add li h2{
+    font-size: 5vw;
+    font-weight: 500;
+
+    box-sizing: border-box;
+    padding:2.5vw;
+}
+.wrapper .recommend-add li p{
+    font-size: 6vw;
+    color: #aaaaaa;
+
+    box-sizing: border-box;
+    padding:2.5vw;
+}
+.wrapper .clarity-type{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    padding: 1vw;
+}
+
+
+.wrapper .order{
+    width: 100%;
+}
+.wrapper .order li{
+    width: 100%;
+}
+.wrapper .order li .order-info{
+    box-sizing: border-box;
+    padding: 2vw 4vw;
+    font-size: 4vw;
+    color: #666;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .order li .order-info img{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 10px;
+}
+.wrapper .order li .order-info .order-info-right{
+    display: flex;
+}
+.wrapper .order li .order-info .order-info-right .order-info-right-icon{
+    background-color: #f90;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 2vw;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .order li .order-detailet{
+    width: 100%;
+}
+.wrapper .order li .order-detailet li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1vw 4vw;
+    color: #666;
+    font-size: 3vw;
+
+    display: flex;
+
+}
+
+.wrapper .order li .order-detailet .order-detailed img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+/***分类列表**/
+.wrapper .business{
+    width: 100%;
+
+}
+.wrapper .business li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1vw;
+    user-select: none;
+    border-bottom: solid 1px #ddd;
+
+    display: flex;
+}
+.wrapper .business li img{
+    width: 6.5vw;
+    height: 6.5vw;
+    border-radius: 50%;
+}
+.wrapper .business li .business-info{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1vw;
+}
+.wrapper .business li .business-info .business-info-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 6vw;
+    font-weight: 200;
+    margin-bottom: 2.5vw;
+}
+.wrapper .business li .business-info .business-info-h h3{
+    font-size: 4vw;
+    color: #333;
+}
+.wrapper .business li .business-info .business-info-h p{
+    font-size: 5vw;
+    font-weight: 700;
+    color: #aaaaaa;
+}
+
+#last_one{
+    margin-bottom: 18vw;
+}
+/***底部菜单**/
+.wrapper .footer{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #ddd;
+    background-color: #eeeeee;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .footer li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .footer li p{
+    font-size: 2.8vw;
+}
+.wrapper .footer li i{
+    font-size: 5vw;
+}
+.wrapper .footer li img{
+    width: 6.5vw;
+    height: 6.5vw;
+}

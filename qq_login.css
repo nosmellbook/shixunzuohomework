@@ -1,0 +1,126 @@
+/***总容器**/
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+/****头部**/
+.wrapper header{
+    width: 100%;
+    height: 40vw;
+
+    color:#000000;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper header p{
+    font-weight: 350;
+    font-size: 20vw;
+}
+/****表单**/
+.wrapper .form-box{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.wrapper .form-box li{
+    box-sizing: border-box;
+    padding: 4vw 3vw 0 3vw;
+    width: 85%;
+    display: flex;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.wrapper .form-box li .content{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 3vw 4vw 3vw;
+    border-radius: 10px;
+    flex: 1;
+    background-color: white;
+
+
+}
+.wrapper .form-box li .content input{
+    border: none;
+    outline: none;
+    width: 100%;
+
+    height: 5vw;
+    font-size: 5vw;
+
+
+    text-align: center;
+}
+
+
+.wrapper .button-login{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10vw 10vw 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.wrapper .button-login button{
+    width: 100%;
+    height: 10vw;
+    font-size: 3.8vw;
+    font-weight: 700;
+    color: #eeeeee;
+    background-color: #0097ff;
+    border-radius: 10px;
+
+
+    border: none;
+    outline: none;
+}
+
+
+/***底部菜单**/
+.wrapper .footer{
+    width: 100%;
+    height: 20vw;
+
+    background-color: #eeeeee;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .footer li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .footer li p{
+    font-size: 2.8vw;
+}
+.wrapper .footer li i{
+    font-size: 5vw;
+}
+.wrapper .footer li img{
+    width: 10vw;
+    height: 10vw;
+}

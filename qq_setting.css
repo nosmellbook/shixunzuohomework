@@ -1,0 +1,142 @@
+/***总容器**/
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+    background-color: #eeeeee;
+}
+/****头部**/
+.wrapper header{
+    width: 100%;
+    height: 12vw;
+    background-color: #eeeeee;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper header p{
+    font-size: 5vw;
+    font-weight: 700;
+    color: black;
+}
+.wrapper header h2{
+    font-size: 5vw;
+    font-weight: 700;
+    color: black;
+
+
+}
+.wrapper header .location-left{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding:2.5vw;
+}
+.wrapper header .location-left h2{
+    font-size: 5vw;
+    font-weight: 350;
+
+    box-sizing: border-box;
+    padding:40vw;
+
+}
+
+#first-one{
+    box-sizing: border-box;
+    padding: 14vw 0 0 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .nothing{
+    width: 100%;
+    height: 3vw;
+    background-color: #eeeeee;
+}
+
+/***设置列表**/
+.wrapper .business{
+    width: 100%;
+    background-color: white;
+    border-radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.wrapper .business li{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1vw;
+    user-select: none;
+    border-bottom: solid 1px #ddd;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .business li img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+
+    box-sizing: border-box;
+    padding: 0 0 1.5vw 0;
+}
+.wrapper .business li .business-info{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1vw;
+}
+.wrapper .business li .business-info .business-info-h{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 6vw;
+    font-weight: 200;
+    margin-bottom: 2vw;
+
+}
+.wrapper .business li .business-info .business-info-h  h3{
+    font-size: 4vw;
+    color: #333;
+    font-weight: 400;
+}
+.wrapper .business li .business-info .business-info-h .business-info-h-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper .business li .business-info .business-info-h p{
+    font-size: 6vw;
+    font-weight: 300;
+    color: black;
+    box-sizing: border-box;
+    padding: 0 1vw 0 1vw;
+}
+.wrapper .business li .business-info .business-info-h .business-info-h-right p{
+    font-size: 6vw;
+    font-weight: 300;
+    color: black;
+    box-sizing: border-box;
+    padding: 0 1vw 0 1vw;
+}
+.wrapper .business li .business-info .business-info-h .business-info-h-right img{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+
+}
+.wrapper .business li .business-info .business-info-h .business-info-h-right h4{
+    font-size: 3vw;
+    color: #666666;
+}
+
